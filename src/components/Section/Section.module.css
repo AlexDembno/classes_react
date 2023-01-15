@@ -1,0 +1,16 @@
+.baseSection {
+  width: 1600px;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: rgb(60, 12, 218);
+}
+
+.superSection {
+  background-color: rgb(12, 218, 160);
+  composes: baseSection;
+}
+
+.titleStyle {
+  font-size: 20px;
+  color: rgb(226, 43, 80);
+}
